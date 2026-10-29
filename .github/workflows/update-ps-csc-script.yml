@@ -21,7 +21,7 @@ jobs:
       - name: Download latest powershell script
         run: |
           mkdir -p files/scripts
-          curl -L -o files/scripts/FARIA_PS_CSC_SCRIPT.ps1 https://raw.githubusercontent.com/dfaria5/faria-ps-csc-script/main/FARIA_PS_CSC_SCRIPT.ps1
+          curl -L -o files/scripts/FARIA_PS_CSC_SCRIPT.ps1 https://raw.githubusercontent.com/faria4x/faria-ps-csc-script/main/FARIA_PS_CSC_SCRIPT.ps1
 
       - name: Commit & push
         run: |
